@@ -1,0 +1,175 @@
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("../image/meat2.jpg");
+
+  min-height: 445px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 15px;
+  max-width: 330px;
+  padding: 15px;
+  background-color: black;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin:0px 0 5px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: crimson;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  width:120px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+.l1{
+  height: 120;
+  text-align: center;
+  padding-top: 15px;
+}
+.l2{
+  height: 120;
+  text-align: center;
+  padding-top: 15px;
+}
+.l3{
+  height: 120;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+
+
+
+
+
+.box{
+    flex: 1;
+    margin: 15px;
+    min-width: 300px;
+    padding-bottom: 3%;
+  }
+  .box h2{
+     text-transform: uppercase;
+     font-style: bold;
+     letter-spacing: 3px;
+     border-bottom: 2px solid #555; 
+     position: relative;
+     margin-bottom: 15px;
+      margin-bottom: 10%;
+       
+  }
+  .box h2:before{
+    content: "";
+    width: 100px;
+    height:35px;
+    border-bottom: 2px solid crimson;
+    position: absolute;
+    
+
+  }
+  .box a{
+    color: #aaa;
+    text-decoration: none;
+    display: inline-block;
+
+  }
+  .box a i{
+    background: #333;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    transition: 0.5s linear;
+    
+  }
+  .box a:hover,
+  .box a:hover i{
+    color: crimson;
+    border-radius: 50%;
+
+  }
+  .social{
+    margin-top: 5px;
+  }
+  .address a{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+  }
+
+    video {
+  max-width: 100%;
+  height: auto;
+}
+  form input,
+  form textarea{
+    width: 100%;
+    min-height: 30px;
+    border:none;
+    outline: none;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    color: black;
+  }
+ 
+  form button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: crimson;
+    font:1.3em;
+    cursor: pointer;
+  }
+ footer{
+    width: 100%;
+    background: #222;
+    color: #aaa;
+
+  }
+
+
+  
